@@ -29,7 +29,7 @@ In the context of the 2022 Men's T20 World Cup, the goal is to build an undefeat
 6. **Documentation:**
    - Maintain clear documentation outlining the rationale behind player selection.
    - Provide insights into the chosen strategies and the expected impact on achieving the team goals.
-   - [Documentation](https://github.com/ASDsashi/T20-Cricket-Analysis/blob/main/Measures%20and%20Parameters.xlsx)
+   - [Documentation]((https://github.com/ASDsashi/T20-Cricket-Analysis/blob/main/Measures%20and%20Parameters.pdf))
 
 ## Dataset
 
