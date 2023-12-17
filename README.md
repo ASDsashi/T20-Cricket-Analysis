@@ -41,7 +41,7 @@ The dataset used for this analysis is sourced from the 2022 Men's T20 World Cup.
 1. **Data Cleaning with Python:**
    - Cleaned the raw data using Python, converting the JSON file into a structured CSV format.
    - Transformation included handling complex arrays by converting them into simple dictionaries.
-   - Addressed the absence of information regarding player dismissal in the JSON file by utilizing a string in the "dismissal" field to identify player outs.
+   - Addressed the absence of information regarding player dismissal in the JSON file by utilizing a string in the "dismissal" field to identify player-outs.
    - [Python Data Cleaning Code](https://github.com/ASDsashi/T20-Cricket-Analysis/blob/main/Data%20Cleaning.ipynb)
 
 2. **Data Transformation with PowerQuery:**
@@ -58,10 +58,10 @@ The dataset used for this analysis is sourced from the 2022 Men's T20 World Cup.
     The Power BI visualizations encompass not only numerical statistics but also include informative charts and scatterplots for enhanced visualization and analysis.
 
 
-## Implementation
+## Key Insights
 
-The entire analysis and player selection process will be implemented using Python and popular data analysis libraries. The code and results will be documented in Jupyter Notebooks, ensuring transparency and reproducibility of the entire analysis.
+
 
 ## Conclusion
 
-The goal is to build not just a cricket team but a winning combination that aligns with the specific targets set for run scoring and defending. The project will culminate in the selection of the "Undefeatable XI" for the 2022 Men's T20 World Cup, backed by data-driven insights and a strategic approach.
+The goal is to build not just a cricket team but a winning combination that aligns with the specific targets set for run-scoring and defending. The project will culminate in the selection of the "Undefeatable XI" men's cricket team, backed by data-driven insights and a strategic approach.
