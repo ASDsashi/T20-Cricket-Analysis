@@ -29,41 +29,34 @@ In the context of the 2022 Men's T20 World Cup, the goal is to build an undefeat
 6. **Documentation:**
    - Maintain clear documentation outlining the rationale behind player selection.
    - Provide insights into the chosen strategies and the expected impact on achieving the team goals.
-   - [Documentation]((https://github.com/ASDsashi/T20-Cricket-Analysis/blob/main/Measures%20and%20Parameters.pdf))
+   - [Documentation](https://github.com/ASDsashi/T20-Cricket-Analysis/blob/main/Measures%20and%20Parameters.pdf)
 
 ## Dataset
 
-The dataset used for this analysis is sourced from the 2022 Men's T20 World Cup. It includes comprehensive statistics on player performances, team records, and match outcomes. The dataset will be analyzed to identify standout players meeting the criteria for batting, bowling, and all-round excellence.
+The dataset used for this analysis is sourced from the 2022 Men's T20 World Cup. It includes comprehensive statistics on player performances, team records, and match outcomes. The dataset has been analyzed to identify standout players meeting the criteria for batting, bowling, and all-round excellence.
+   -[Dataset](https://github.com/ASDsashi/T20-Cricket-Analysis/tree/main/Dataset)
 
 ## Methodology
 
-1. **Data Collection:**
-   - Gather and preprocess the 2022 Men's T20 World Cup dataset.
-   - Extract relevant features such as runs scored, batting strike rates, wickets taken, bowling economy rates, etc.
-   - [Raw Dataset](data/raw/2022_T20_World_Cup_Data.csv)
+1. **Data Cleaning with Python:**
+   - Cleaned the raw data using Python, converting the JSON file into a structured CSV format.
+   - Transformation included handling complex arrays by converting them into simple dictionaries.
+   - Addressed the absence of information regarding player dismissal in the JSON file by utilizing a string in the "dismissal" field to identify player outs.
+   - [Python Data Cleaning Code](https://github.com/ASDsashi/T20-Cricket-Analysis/blob/main/Data%20Cleaning.ipynb)
 
-2. **Exploratory Data Analysis (EDA):**
-   - Conduct EDA to identify key performance indicators.
-   - Analyze player-wise and team-wise statistics to inform the selection process.
-   - [EDA Notebook](notebooks/exploratory_data_analysis.ipynb)
+2. **Data Transformation with PowerQuery:**
+   - Conducted data transformation using PowerQuery to enhance the dataset for analysis.
+   - Eliminated duplicate player names with respect to their countries, ensuring accuracy in player statistics.
+   - Named matches as Qualifier/Super 12 based on the dates they were played.
 
-3. **Player Selection:**
-   - Employ statistical thresholds to shortlist top-performing players in batting, bowling, and all-round categories.
-   - Ensure a balance of experienced players and emerging talents.
+3. **Data Visualization with Power BI:**
+   - Leveraged Power BI for comprehensive data visualization, showcasing key statistics to aid in player selection.
+   - Visualized player metrics, including strike rate, batting style, batting average, boundary percentage, wickets, dot ball percentage, maiden overs, and more.
+   - Enabled users to identify the top 11 players based on both numerical and visual insights.
+   - [Explore Power BI Visualizations](https://github.com/ASDsashi/T20-Cricket-Analysis/tree/main/Dashboard)
 
-4. **Team Composition:**
-   - Construct the final team considering batting order, bowling rotations, and fielding strengths.
-   - Optimize player positions to maximize overall team performance.
-   - [Final Team Selection](notebooks/final_team_selection.ipynb)
+    The Power BI visualizations encompass not only numerical statistics but also include informative charts and scatterplots for enhanced visualization and analysis.
 
-5. **Strategy Formulation:**
-   - Develop a strategic approach for achieving the minimum run target and defending successfully.
-   - Consider match scenarios, opposition strengths, and playing conditions.
-
-6. **Documentation and Reporting:**
-   - Document the entire team selection process, including the rationale for each player's inclusion.
-   - Provide a comprehensive report on the chosen strategies and expected outcomes.
-   - [Project Report](reports/project_report.pdf)
 
 ## Implementation
 
