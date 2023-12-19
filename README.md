@@ -82,7 +82,8 @@ The dataset used for this analysis is sourced from the 2022 Men's T20 World Cup.
 The nuanced analysis facilitated by the dashboard empowers decision-makers to make informed choices aligned with the team's overarching goals. 
    - Playing XI can be selected based on various parameters:
 ![PlayingXI](https://github.com/ASDsashi/T20-Cricket-Analysis/assets/71587160/f12d66b5-2176-4b4d-80c3-9026aad26b69)
-
+ 
+   - A detailed report on the key insights: [Key Insights](https://github.com/ASDsashi/T20-Cricket-Analysis/blob/main/Documents/KeyInsights.pdf)
 
 ## Conclusion
 
