@@ -29,7 +29,7 @@ In the context of the 2022 Men's T20 World Cup, the goal is to build an undefeat
 6. **Documentation:**
    - Maintain clear documentation outlining the rationale behind player selection.
    - Provide insights into the chosen strategies and the expected impact on achieving the team goals.
-   - [Documentation](https://github.com/ASDsashi/T20-Cricket-Analysis/blob/main/Measures%20and%20Parameters.pdf)
+   - [Documentation](https://github.com/ASDsashi/T20-Cricket-Analysis/blob/main/Documents/Measures%20and%20Parameters.pdf)
 
 ## Dataset
 
@@ -80,6 +80,8 @@ The dataset used for this analysis is sourced from the 2022 Men's T20 World Cup.
    - By extrapolating individual player statistics, the dashboard provides a valuable tool for estimating the combined runs that can be potentially scored by the team. This projection is instrumental in setting realistic expectations and refining team strategies.
 
 The nuanced analysis facilitated by the dashboard empowers decision-makers to make informed choices aligned with the team's overarching goals. 
+   - Playing XI can be selected based on various parameters:
+![PlayingXI](https://github.com/ASDsashi/T20-Cricket-Analysis/assets/71587160/f12d66b5-2176-4b4d-80c3-9026aad26b69)
 
 
 ## Conclusion
